@@ -44,3 +44,9 @@ print(paddend)
 print (oneMillion)
 print (suma)
 print(piNum)
+
+//alias de formato de numeros
+typealias AudioSample = UInt16
+var maxAmplitude = AudioSample.max // UInt16.max 2^16-1 = 65,535
+
+print(maxAmplitude)
