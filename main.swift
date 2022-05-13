@@ -19,6 +19,21 @@ let paddend = 000000000123.456 //123.456
 let oneMillion = 1_000_000 //1 millon
 let moreOneMillion = 1_000_000.000_000_1 //1 millon
 
+//ERRORES DE TIPO DE DATO
+//let cannot BeNegative : UInt8 = -1
+//let tooBig : UInt8 = UInt8.max + 1
+
+
+//parsear de Uint8 a Uint16
+let twoThousand : UInt16 = 2_0008
+let one: UInt8 = 1
+let suma = twoThousand + UInt16 (one) //suma = 2009
+
+//parcear de int a double
+let three = 3
+let decimalNumber = 0.14159
+let piNum = Double (three)+decimalNumber //3.14159
+
 
 
 print(numeroBinario)
@@ -27,3 +42,5 @@ print(hexadecimal)
 print(exponentDouble)
 print(paddend)
 print (oneMillion)
+print (suma)
+print(piNum)
